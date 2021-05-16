@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <script data-main="app" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/1.0.3/require.js"></script>
+        <script data-main="app" src="lib/socket.io.js"></script>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>
+            <textarea id="debugTextArea" style="width:400px;height:200px;"></textarea>
+        </p>
+        <p>
+            <input type="text" id="inputText" onkeydown="if(event.keyCode==13)sendMessage();"/>
+            <button id=myButton>Send</button>
+        </p>
+    </body>
+</html>

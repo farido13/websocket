@@ -1,0 +1,1 @@
+define([],function(){return{sendMessage:function(e){var n=document.getElementById("inputText").value;null!=e&&(document.getElementById("inputText").value="",e.send(n),console.log("string sent :",'"'+n+'"'))}}});
